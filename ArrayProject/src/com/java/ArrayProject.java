@@ -1,6 +1,7 @@
 package com.java;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayProject {
 
@@ -11,6 +12,10 @@ public class ArrayProject {
 		arraylist.add(15);
 		arraylist.add(20);
 		System.out.println(arraylist);
+		Iterator itr=arraylist.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 	}
 
 }
